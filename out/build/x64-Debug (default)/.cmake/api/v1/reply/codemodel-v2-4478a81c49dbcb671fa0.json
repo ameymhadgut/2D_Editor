@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "SDL-build",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/15512/Desktop/NYU Academics/Fall 2020/Computer Graphics/cg-master/ext/SDL",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Assignment_6",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment_6-Debug-be432545da8f8a0a0891.json",
+					"name" : "Assignment_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RasterViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RasterViewer-Debug-df7da0c5aba3d94ed55d.json",
+					"name" : "RasterViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-SDL2-Debug-8ac9e0ff46d350fa4b2a.json",
+					"name" : "SDL2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-SDL2-static-Debug-18a9a9f575c60b0cfec5.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-SDL2main-Debug-a1dc720926969e1311f5.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-uninstall-Debug-8c9ec297dc6a20e7b5c8.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/15512/Desktop/NYU Academics/Fall 2020/Computer Graphics/cg-master/Assignment_6/out/build/x64-Debug (default)",
+		"source" : "C:/Users/15512/Desktop/NYU Academics/Fall 2020/Computer Graphics/cg-master/Assignment_6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
